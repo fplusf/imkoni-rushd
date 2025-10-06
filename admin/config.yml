@@ -1,0 +1,39 @@
+backend:
+  name: git-gateway
+  branch: main
+local_backend: true
+
+media_folder: "assets"
+public_folder: "/assets"
+
+collections:
+  - name: "content"
+    label: "Site content"
+    files:
+      - file: "i18n/ru.json"
+        label: "Русский"
+        name: "ru"
+        format: "json"
+        fields:
+          - { label: "JSON", name: "root", widget: "code", default: "{}", output_code_only: true }
+      - file: "i18n/tj.json"
+        label: "Тоҷикӣ"
+        name: "tj"
+        format: "json"
+        fields:
+          - { label: "JSON", name: "root", widget: "code", default: "{}", output_code_only: true }
+      - file: "i18n/en.json"
+        label: "English"
+        name: "en"
+        format: "json"
+        fields:
+          - { label: "JSON", name: "root", widget: "code", default: "{}", output_code_only: true }
+
+  - name: "assets"
+    label: "Images"
+    label_singular: "Image"
+    folder: "assets"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Image", name: "image", widget: "image"}

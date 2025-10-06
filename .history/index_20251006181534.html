@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Надежный поиск работы от ЧАЗ «Корманд tj»</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">
+        <svg class="logo" viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="120" height="40" rx="8" fill="#0ea5e9"/>
+          <text x="60" y="26" text-anchor="middle" fill="white" font-family="Inter, sans-serif" font-size="16" font-weight="700">KORMAND</text>
+        </svg>
+      </a>
+      <nav class="nav">
+        <a data-i18n="nav.vacancies" href="#vacancies"></a>
+        <a data-i18n="nav.about" href="#about"></a>
+        <a data-i18n="nav.reviews" href="#reviews"></a>
+        <a data-i18n="nav.forEmployers" href="#employers"></a>
+      </nav>
+      <div class="cta-lang">
+        <a class="btn primary" href="#apply" data-i18n="cta.apply"></a>
+        <div class="lang">
+          <button id="lang-btn" aria-haspopup="listbox"><span id="lang-code">RU</span> ▾</button>
+          <ul id="lang-menu" class="lang-menu" role="listbox" aria-labelledby="lang-btn">
+            <li data-lang="ru">RU</li>
+            <li data-lang="tj">TJ</li>
+            <li data-lang="en">ENG</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1 data-i18n="hero.title"></h1>
+          <p class="lead" data-i18n="hero.subtitle"></p>
+          <a class="btn secondary" href="#vacancies" data-i18n="hero.button"></a>
+        </div>
+        <div class="hero-media">
+          <div class="hero-placeholder">
+            <svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="400" height="300" rx="16" fill="url(#heroGradient)"/>
+              <circle cx="200" cy="120" r="40" fill="rgba(255,255,255,0.3)"/>
+              <rect x="160" y="180" width="80" height="60" rx="8" fill="rgba(255,255,255,0.2)"/>
+              <defs>
+                <linearGradient id="heroGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" style="stop-color:#0ea5e9;stop-opacity:1" />
+                  <stop offset="100%" style="stop-color:#0369a1;stop-opacity:1" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Vacancies categories -->
+    <section id="vacancies" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2 data-i18n="vacancies.title"></h2>
+          <a class="link" href="#" data-i18n="vacancies.viewAll"></a>
+        </div>
+        <div class="cards3">
+          <article class="card">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7 4V2C7 1.45 7.45 1 8 1H16C16.55 1 17 1.45 17 2V4H20C20.55 4 21 4.45 21 5S20.55 6 20 6H19V19C19 20.1 18.1 21 17 21H7C5.9 21 5 20.1 5 19V6H4C3.45 6 3 5.55 3 5S3.45 4 4 4H7ZM9 3V4H15V3H9ZM7 6V19H17V6H7Z" fill="#0ea5e9"/>
+                <path d="M9 8V17H11V8H9ZM13 8V17H15V8H13Z" fill="#0369a1"/>
+              </svg>
+            </div>
+            <div class="card-body">
+              <h3 data-i18n="vacancies.categories.retail"></h3>
+              <a href="#" class="btn ghost" data-i18n="common.view"></a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 8H17V6C17 4.9 16.1 4 15 4H9C7.9 4 7 4.9 7 6V8H4C2.9 8 2 8.9 2 10V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V10C22 8.9 21.1 8 20 8ZM9 6H15V8H9V6ZM20 18H4V10H20V18Z" fill="#0ea5e9"/>
+                <path d="M12 12C13.1 12 14 12.9 14 14S13.1 16 12 16 10 15.1 10 14 10.9 12 12 12Z" fill="#0369a1"/>
+              </svg>
+            </div>
+            <div class="card-body">
+              <h3 data-i18n="vacancies.categories.logistics"></h3>
+              <a href="#" class="btn ghost" data-i18n="common.view"></a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L13.09 8.26L22 9L13.09 9.74L12 16L10.91 9.74L2 9L10.91 8.26L12 2Z" fill="#0ea5e9"/>
+                <path d="M19 15L20.5 16.5L16 21L14.5 19.5L19 15Z" fill="#0369a1"/>
+                <path d="M5 15L6.5 16.5L2 21L0.5 19.5L5 15Z" fill="#0369a1"/>
+              </svg>
+            </div>
+            <div class="card-body">
+              <h3 data-i18n="vacancies.categories.construction"></h3>
+              <a href="#" class="btn ghost" data-i18n="common.view"></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Advantages -->
+    <section class="section alt">
+      <div class="container">
+        <h2 data-i18n="advantages.title"></h2>
+        <div class="icon-grid">
+          <div class="icon-item">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M14 2H6C4.9 2 4 2.9 4 4V20C4 21.1 4.89 22 5.99 22H18C19.1 22 20 21.1 20 20V8L14 2ZM18 20H6V4H13V9H18V20Z" fill="#0ea5e9"/>
+            </svg>
+            <p data-i18n="advantages.items.officialContract"></p>
+          </div>
+          <div class="icon-item">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M21 16V14L13 9V3.5C13 2.67 12.33 2 11.5 2S10 2.67 10 3.5V9L2 14V16L10 13.5V19L8 20.5V22L12 21L16 22V20.5L14 19V13.5L21 16Z" fill="#0ea5e9"/>
+            </svg>
+            <p data-i18n="advantages.items.freeFlight"></p>
+          </div>
+          <div class="icon-item">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 2C13.1 2 14 2.9 14 4C14 5.1 13.1 6 12 6C10.9 6 10 5.1 10 4C10 2.9 10.9 2 12 2ZM21 9V7L15 1H5C3.89 1 3 1.89 3 3V7H1V9H3V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V9H23V7H21M19 19H5V9H19V19Z" fill="#0ea5e9"/>
+            </svg>
+            <p data-i18n="advantages.items.airportTransfer"></p>
+          </div>
+          <div class="icon-item">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10 20V14H14V20H19V12H22L12 3L2 12H5V20H10Z" fill="#0ea5e9"/>
+            </svg>
+            <p data-i18n="advantages.items.hostel"></p>
+          </div>
+          <div class="icon-item">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M14 2H6C4.9 2 4 2.9 4 4V20C4 21.1 4.89 22 5.99 22H18C19.1 22 20 21.1 20 20V8L14 2ZM18 20H6V4H13V9H18V20ZM8 12H16V14H8V12ZM8 16H13V18H8V16Z" fill="#0ea5e9"/>
+            </svg>
+            <p data-i18n="advantages.items.docsSupport"></p>
+          </div>
+          <div class="icon-item">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 1L3 5V11C3 16.55 6.84 21.74 12 23C17.16 21.74 21 16.55 21 11V5L12 1ZM10 17L6 13L7.41 11.59L10 14.17L16.59 7.58L18 9L10 17Z" fill="#0ea5e9"/>
+            </svg>
+            <p data-i18n="advantages.items.verifiedEmployers"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Apply form -->
+    <section id="apply" class="section">
+      <div class="container">
+        <h2 data-i18n="apply.title"></h2>
+        <p data-i18n="apply.subtitle"></p>
+        <form class="grid-form" onsubmit="return false">
+          <label>
+            <span data-i18n="form.name"></span>
+            <input type="text" name="name" required>
+          </label>
+          <label>
+            <span data-i18n="form.age"></span>
+            <input type="number" name="age">
+          </label>
+          <label>
+            <span data-i18n="form.phone"></span>
+            <input type="tel" name="phone" required>
+          </label>
+          <label>
+            <span data-i18n="form.city"></span>
+            <input type="text" name="city">
+          </label>
+          <p class="consent" data-i18n="form.consent"></p>
+          <button class="btn primary" type="submit" data-i18n="form.submit"></button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Process timeline -->
+    <section class="section alt">
+      <div class="container">
+        <h2 data-i18n="process.title"></h2>
+        <div class="steps">
+          <div class="step"><img src="assets/step-1.svg" alt=""><h3 data-i18n="process.consult.title"></h3><p data-i18n="process.consult.text"></p></div>
+          <div class="step"><img src="assets/step-2.svg" alt=""><h3 data-i18n="process.assess.title"></h3><p data-i18n="process.assess.text"></p></div>
+          <div class="step"><img src="assets/step-3.svg" alt=""><h3 data-i18n="process.contract.title"></h3><p data-i18n="process.contract.text"></p></div>
+          <div class="step"><img src="assets/step-4.svg" alt=""><h3 data-i18n="process.interview.title"></h3><p data-i18n="process.interview.text"></p></div>
+          <div class="step"><img src="assets/step-5.svg" alt=""><h3 data-i18n="process.docs.title"></h3><p data-i18n="process.docs.text"></p></div>
+          <div class="step"><img src="assets/step-6.svg" alt=""><h3 data-i18n="process.prep.title"></h3><p data-i18n="process.prep.text"></p></div>
+          <div class="step"><img src="assets/step-7.svg" alt=""><h3 data-i18n="process.transfer.title"></h3><p data-i18n="process.transfer.text"></p></div>
+          <div class="step"><img src="assets/step-8.svg" alt=""><h3 data-i18n="process.checkin.title"></h3><p data-i18n="process.checkin.text"></p></div>
+          <div class="step"><img src="assets/step-9.svg" alt=""><h3 data-i18n="process.start.title"></h3><p data-i18n="process.start.text"></p></div>
+          <div class="step"><img src="assets/step-10.svg" alt=""><h3 data-i18n="process.support.title"></h3><p data-i18n="process.support.text"></p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 data-i18n="about.title"></h2>
+        <p data-i18n="about.p1"></p>
+        <div class="about-grid">
+          <div class="about-card">
+            <img src="assets/mission.svg" alt="">
+            <h3 data-i18n="about.mission.title"></h3>
+            <p data-i18n="about.mission.text"></p>
+          </div>
+          <div class="about-card">
+            <img src="assets/license.svg" alt="">
+            <h3 data-i18n="about.license.title"></h3>
+            <p data-i18n="about.license.text"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section alt">
+      <div class="container">
+        <h2 data-i18n="faq.title"></h2>
+        <details>
+          <summary data-i18n="faq.q1.q"></summary>
+          <p data-i18n="faq.q1.a"></p>
+        </details>
+        <details>
+          <summary data-i18n="faq.q2.q"></summary>
+          <p data-i18n="faq.q2.a"></p>
+        </details>
+      </div>
+    </section>
+
+    <!-- Social -->
+    <section class="section">
+      <div class="container social">
+        <h2 data-i18n="social.title"></h2>
+        <p data-i18n="social.text"></p>
+        <div class="social-links">
+          <a href="https://www.facebook.com" target="_blank" rel="noopener">Facebook</a>
+          <a href="https://www.instagram.com" target="_blank" rel="noopener">Instagram</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bottom CTA duplicated -->
+    <section class="section alt">
+      <div class="container">
+        <h2 data-i18n="ctaBottom.title"></h2>
+        <img src="assets/cta.webp" alt="" class="cta-img">
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand" href="#">
+          <svg class="logo-sm" viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="120" height="40" rx="8" fill="#0ea5e9"/>
+            <text x="60" y="26" text-anchor="middle" fill="white" font-family="Inter, sans-serif" font-size="16" font-weight="700">KORMAND</text>
+          </svg>
+        </a>
+        <nav class="footer-nav">
+          <a data-i18n="nav.vacancies" href="#vacancies"></a>
+          <a data-i18n="nav.about" href="#about"></a>
+          <a data-i18n="nav.reviews" href="#reviews"></a>
+          <a data-i18n="nav.forEmployers" href="#employers"></a>
+        </nav>
+      </div>
+      <div>
+        <h4 data-i18n="footer.contacts"></h4>
+        <p><span data-i18n="footer.addr"></span></p>
+        <p><a href="mailto:kormandtj@gmail.com">kormandtj@gmail.com</a></p>
+        <p><a href="tel:+992978870090">+992 97 887 0090</a></p>
+      </div>
+      <div>
+        <h4 data-i18n="footer.legal"></h4>
+        <p><a href="#">Политика конфиденциальности</a> · <a href="#">Пользовательское соглашение</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

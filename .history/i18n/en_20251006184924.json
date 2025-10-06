@@ -1,0 +1,49 @@
+{
+  "nav": { "vacancies": "Vacancies", "about": "About", "forEmployers": "For employers" },
+  "cta": { "apply": "Apply" },
+  "hero": {
+    "title": "Reliable job search by ImkoniRushd",
+    "subtitle": "We are a licensed private employment agency helping you find jobs in Tajikistan and abroad. Only verified and reliable employers.",
+    "button": "Find a vacancy"
+  },
+  "vacancies": {
+    "title": "Our vacancies",
+    "viewAll": "View all vacancies",
+    "categories": { "retail": "Retail", "logistics": "Logistics", "construction": "Construction" }
+  },
+  "advantages": {
+    "title": "Our advantages",
+    "items": {
+      "officialContract": "Official contract with ImkoniRushd",
+      "freeFlight": "Free flight from Tajikistan",
+      "airportTransfer": "Airport transfer to the workplace",
+      "hostel": "Accommodation in comfortable hostels",
+      "docsSupport": "Support with permits and legalization",
+      "verifiedEmployers": "Verified employers and official employment"
+    }
+  },
+  "apply": { "title": "Apply", "subtitle": "Leave a request to get a consultation about current vacancies. Provide your name, phone, and city. We will contact you during the day." },
+  "form": { "name": "Name", "age": "Age", "phone": "Phone", "city": "City", "consent": "By submitting you consent to personal data processing.", "submit": "Submit" },
+  "process": {
+    "title": "Transparent cooperation process",
+    "consult": { "title": "Consultation", "text": "We present vacancies and pick suitable ones." },
+    "assess": { "title": "Assessment", "text": "We check your skills against requirements." },
+    "contract": { "title": "Contract", "text": "We sign an official contract." },
+    "interview": { "title": "Interview", "text": "We organize a talk with the employer." },
+    "docs": { "title": "Documents", "text": "We help collect certificates and confirm qualifications." },
+    "prep": { "title": "Preparation", "text": "We buy tickets and prepare travel documents." },
+    "transfer": { "title": "Transfer", "text": "We meet and escort you." },
+    "checkin": { "title": "Check-in", "text": "We provide comfortable housing." },
+    "start": { "title": "Start work", "text": "You start with full support." },
+    "support": { "title": "Support", "text": "We help you adapt in the new place." }
+  },
+  "about": {
+    "title": "About us",
+    "p1": "ImkoniRushd is a licensed private employment agency operating since 2021. We have bilateral agreements with verified employers to ensure safe and official employment for citizens of Tajikistan.",
+    "mission": { "title": "Our mission", "text": "Make job search simple, reliable, and accessible for everyone." },
+    "license": { "title": "License", "text": "LLC "ImkoniRushd" operates under a license of the Migration Service of the Republic of Tajikistan." }
+  },
+  "social": { "title": "Get new vacancies first on our social networks", "text": "Subscribe and receive regular selections of new vacancies." },
+  "footer": { "contacts": "Contacts", "addr": "Dushanbe, Tajikistan. Shohtemur St. 21, 2nd floor", "legal": "Legal" },
+  "common": { "view": "View" }
+}
